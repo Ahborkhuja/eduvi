@@ -1,0 +1,35 @@
+.mentor__title{
+  width: 490px;
+}
+.mentor__title>h3 {
+  font-family: 'Metropolis';
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: $titlecolor;
+}
+
+.mentor__title>p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $subtitlecol;
+}
+
+.mentor__title>a {
+  background-color: #9C4DF4;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.mentor__image{
+  max-width: 510px;
+  height: 521px;
+  background-image: url("../../img/mentor.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 75px;
+}
+.dropdown {
+  margin-right: -10x;
+}
+
+.search {
+  margin-left: -110px;
+}
+
+.search::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../../img/lupa.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img {
+  width: 700px;
+  height: 700px;
+  background-image: url("../../img/main_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__inner>p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.title {
+  font-family: 'Metropolis';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $redB;
+}
+

@@ -1,0 +1,25 @@
+.qualtiy__title>h2 {
+  font-family: 'Metropolis';
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: $titlecolor;
+}
+
+.qualtiy__title>p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: $subtitlecol;
+}
+
+.qualtiy__btn {
+  border: 1px solid $redB;
+  background-color: $redB;
+  color: white;
+}
+.stand_list{
+}

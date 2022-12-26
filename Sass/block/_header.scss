@@ -1,0 +1,17 @@
+.cart::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/cart.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.account::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/account.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

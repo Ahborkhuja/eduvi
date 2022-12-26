@@ -1,0 +1,55 @@
+.advertisement_inner {
+  width: 1280px;
+  height: 270px;
+  background-image: url("../../img/main_page.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lefth2 {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: $titlecolor;
+}
+
+.filter:checked {
+  border-color: $redB;
+  background-color: $redB;
+}
+
+.mainsearch {
+  margin-left: -55px;
+}
+
+.mainsearch::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("../../img/lupa.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: $titlecolor;
+}
+
+.card-price {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: $redB;
+}
+.rightSide{
+  width: 1000px;
+}
+.leftSide{
+  width: 400px;
+}

@@ -1,0 +1,35 @@
+.left{
+  width: 360px;
+  height: 591px;
+  background-image: url("../../img/modal_left.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullname::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image:url("../../img/fullname.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right>input{
+  max-width: 370px!important;
+}
+.line{
+  width: 1px;
+  height: 641px;
+  background: linear-gradient(180deg, rgba(10, 3, 60, 0) 0%, #0A033C 51.56%, rgba(10, 3, 60, 0) 100%);
+}
+.custom{
+  border-color: #B800F5;
+}
+.custom:checked{
+  border-color: transparent;
+  background-color:transparent;
+}
+.custom:checked[type=checkbox]{
+  background-image: url("../../img/checked.svg");
+  background-size: cover;
+
+}

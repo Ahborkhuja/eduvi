@@ -1,0 +1,20 @@
+.subscribe__inner {
+  height: 420px;
+  background-image: url("../../img/subscribe.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscribe__title>h2 {
+  font-family: 'Metropolis';
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.subscribe__title>p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}

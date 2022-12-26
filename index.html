@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0d6ca35ccf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="site_header">
+      <div class="site_header__container container">
+        <div class="site_header__inner d-flex align-items-center justify-content-between gap-5">
+          <a class="site_header__logo" href="./index.html">
+            <img src="./img/Logo.svg" alt="Logo">
+          </a>
+          <nav class="site_header__nav navbar">
+            <ul class="navbar__list d-flex align-items-center gap-3">
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  For Kindergarten
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  For High School
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  For College
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Cources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <ul class="modalLink d-flex gap-3">
+            <li class="item">
+              <button type="button"
+                class="nav-link text-black-50 border-0 bg-transparent cart d-flex align-items-center gap-1">Cart(0)</button>
+            </li>
+            <li class="item">
+              <button type="button"
+                class="nav-link text-black-50 border-0 bg-transparent account d-flex align-items-center gap-1"
+                data-bs-toggle="modal" data-bs-target="#account">Account</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner mt-5 d-flex gap-2 justify-content-between align-items-center p-2">
+            <div class="text w-50">
+              <span class="p-2 bg-white link-danger w-100 mb-5 title rounded-3">Never Stop Learning</span>
+              <h1><strong>Grow up your skills
+                  by online courses
+                  with Eduvi</strong></h1>
+              <p>Eduvi is a Global training provider based across the UK that specialises in accredited and bespoke
+                training courses. We crush the barriers togetting a degree.</p>
+              <form action="" class="d-flex">
+                <div class="dropdown p-2 bg-white rounded-start rounded-2" style="border: 1px solid #d7d7d7;">
+                  <button class="btn btn-light dropdown-toggle bg-transparent border-0 " type="button"
+                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kindergarten
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <input type="search" class="form-control me-2 rounded-end" aria-label="Search"
+                  placeholder="Class/Course">
+                <span class="d-flex align-items-center">
+                  <button class="btn btn-primary search border-0 d-flex align-items-center gap-2 rounded-3"
+                    type="submit" style="background-color: #B700F5;">Search</button>
+                </span>
+              </form>
+            </div>
+            <div class="img"></div>
+          </div>
+        </div>
+      </section>
+      <section class="video mt-5">
+        <div class="container">
+          <div class="video-inner">
+            <div class="video__title d-flex flex-column gap-3 align-items-center justify-content-center">
+              <h2 class="w-50 ">High quality video, audio
+                & live classes</h2>
+              <p class="w-75">High-definition video is video of higher resolution and quality than standard-definition.
+                While there
+                is
+                no standardized meaning for high-definition, generally any video image with considerably more than 480
+                vertical scan lines or 576 vertical lines is considered high-definition.</p>
+              <a href="">Visit Courses</a>
+            </div>
+            <div class="video__img"></div>
+            <ul class=" d-flex gap-4 justify-content-between pt-5 pe-5 ps-5 ms-5 me-5">
+              <li class="nav-item bg-white d-flex gap-4 p-3 align-items-center rounded-2">
+                <span><img src="./img/audio.svg" alt="" width="60px"></span>
+                <span class="video__class_type">Audio Classes</span>
+              </li>
+              <li class="nav-item bg-white d-flex gap-4 p-3 align-items-center rounded-2">
+                <span><img src="./img/live.svg" alt="" width="60px"></span>
+                <span class="video__class_type">Live Classes</span>
+              </li>
+              <li class="nav-item bg-white d-flex gap-4 p-3 align-items-center rounded-2">
+                <span><img src="./img/record.svg" alt="" width="60px"></span>
+                <span class="video__class_type">Recorded Class</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="quality mt-5">
+        <div class="container">
+          <div class="quality__inner">
+            <div class="qualtiy__title d-flex flex-column justify-content-center align-items-center text-center">
+              <h2 class="w-75">Qualified lessons for students</h2>
+              <p class="w-50">A lesson or class is a structured period of time where learning is intended to occur. It
+                involves one or more students being taught by a teacher or instructor.</p>
+              <div class="btn-group gap-4" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn rounded-3 ">Kindergarten</button>
+                <button type="button" class="btn rounded-3 qualtiy__btn">High School</button>
+                <button type="button" class="btn rounded-3 ">College</button>
+              </div>
+            </div>
+            <ul class="stand_list d-flex flex-wrap justify-content-between align-items-center">
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/1.svg" alt="">
+                <h4>Standard One</h4>
+                <p class="text-center">Standard 1 is a foundation Standard that reflects 7 important concepts...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/2.svg" alt="">
+                <h4>Standard Two</h4>
+                <p class="text-center">Standard 2 builds on the foundations of Standard 1 and includes requirements...
+                </p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/3.svg" alt="">
+                <h4>Standard Three</h4>
+                <p class="text-center">Standard 3 of the Aged Care Quality Standards applies to all services delivering
+                  personal...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/4.svg" alt="">
+                <h4>Standard Four</h4>
+                <p class="text-center">Standard 4 of the Aged Care Quality Standards focuses on services and supports...
+                </p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/5.svg" alt="">
+                <h4>Standard Five</h4>
+                <p class="text-center">Standard 5 Learning Resources. Learning Resources ensure that the school has
+                  the...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/6.svg" alt="">
+                <h4>Standard Six</h4>
+                <p class="text-center">Standard 6 requires an organisation to have a system to resolve complaints...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/7.svg" alt="">
+                <h4>Standard Seven</h4>
+                <p class="text-center">Standard 7 Blood Management mandates that leaders of health service
+                  organisations...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+              <li
+                class="stand_item bg-white gap-3 d-flex flex-column justify-content-center align-items-center rounded-3 mb-3"
+                style="height: 350px;width: 300px;">
+                <img class="w-25" src="./img/8.svg" alt="">
+                <h4>Standard Eight</h4>
+                <p class="text-center">Standard 8 Course from NCERT Solutions help students to understand...</p>
+                <a class="p-3 rounded-2 text-white bottom-0" style="background-color: #B700F5;" href="">Class
+                  Details</a>
+              </li>
+            </ul>
+            <div class="mt-5 mb-5 d-flex justify-content-center">
+              <button type="button" class="p-3 text-white border-0 rounded-3" style="background-color: #B800F5;">Visit
+                More Classes</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advert mt-5">
+        <div class="container">
+          <div class="advert__inner d-flex justify-content-start align-items-center p-5">
+            <div class="advert__title p-3" style="width: 500px;">
+              <span class=" bg-light p-1 rounded-2">College Level</span>
+              <h2 class="m-2"><strong>Don’t waste time in
+                  COVID-19 pandemic.
+                  Develop your skills.</strong></h2>
+              <p class="m-2">High-definition video is video of higher resolution and quality than standard-definition.
+                While there is no standardized
+                meaning for high-definition, generally any video.</p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#account"
+                class="mt-3 border-0 text-white rounded-3 p-2" style="background-color:#B700F5;">Registation
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mentor mt-5 mb-5">
+        <div class="container">
+          <div class="mentor__inner d-flex justify-content-center align-items-center flex-row-reverse gap-5">
+            <div class="mentor__title">
+              <h3 class="m-2">Want to share your
+                knowledge? Join us
+                a Mentor</h3>
+              <p class="m-2">High-definition video is video of higher resolution and quality than standard-definition.
+                While there is no standardized meaning for high-definition, generally any video.</p>
+              <a class="p-3 m-2" href="">Career Information</a>
+            </div>
+            <div class="mentor__image w-50"></div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe mt-5 mb-5">
+        <div class="container">
+          <div class="subscribe__inner d-flex justify-content-center">
+            <div class="subscribe__title d-flex flex-column align-items-center justify-content-center w-50">
+              <h2 class="text-center text-white m-2">Subscribe For Get Update
+                Every New Courses</h2>
+              <p class="text-center text-white m-2">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+              <div class="input-group m-3 w-75">
+                <input type="text" class="form-control border-0 text-white p-2" style="background-color: #412A64;"
+                  placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2">
+                <span class="input-group-text border-0 text-white" style="background-color: #B700F5;"
+                  id="basic-addon2">Subscribe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="site_footer mt-5">
+    <div class="container">
+      <div class="site_footer__inner">
+        <ul class="main_list d-flex justify-content-between align-items-baseline">
+          <li class="main_list__item">
+            <a class="mb-2" href="./index.html"><img src="./img/Logo.svg" alt="Logo"></a>
+            <div class="icon m-3 ms-0 d-flex justify-content-between align-items-center">
+              <span class="rounded-circle p-2"><i class="fa-brands fa-facebook-f"></i></span>
+              <span class="rounded-circle p-2"><i class="fa-brands fa-twitter"></i></span>
+              <span class="rounded-circle p-2"><i class="fa-brands fa-linkedin"></i></span>
+              <span class="rounded-circle p-2"><i class="fa-brands fa-instagram"></i></span>
+            </div>
+            <div class="copyright w-100">
+              <span class="d-inline-block mb-4 mt-4">©2021 Eduvi.co</span>
+              <p style="width: 167px;">Eduvi is a registered
+                trademark of Eduvi.co</p>
+            </div>
+          </li>
+          <li class="main_list__item">
+            <ul class="sub_list list p-0 m-0">
+              <li class="list__item_main p-0 m-0"><a class="nav-main" href="">Courses</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Classroom courses</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Virtual classroom courses </a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> E-learning courses</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Video Courses</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Offline Courses</a></li>
+            </ul>
+          </li>
+          <li class="main_list__item">
+            <ul class="sub_list list p-0 m-0">
+              <li class="list__item_main p-0 m-0"><a class="nav-main" href="">Community</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Learners</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Parteners</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Developers</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Transactions</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Blog</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Teaching Center</a></li>
+            </ul>
+          </li>
+          <li class="main_list__item">
+            <ul class="sub_list list p-0 m-0">
+              <li class="list__item_main p-0 m-0"><a class="nav-main" href="">Quick links</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Home</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Professional Education</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Courses</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Admissions</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Testimonials</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href=""> Programs</a></li>
+            </ul>
+          </li>
+          <li class="main_list__item">
+            <ul class="sub_list list p-0 m-0">
+              <li class="list__item_main p-0 m-0"><a class="nav-main" href="">More</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Press</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Investors </a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Terms</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Privacy</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Help</a></li>
+              <li class="list__item"><a class="nav-link ps-0" href="">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="account" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable p-5" style="max-width: 1000px;">
+      <div class="modal-content">
+        <div class="modal-body gap-5 d-flex justify-content-evenly align-items-center">
+          <div class="left"></div>
+          <span class="line"></span>
+          <div class="right">
+            <form action="">
+              <div class="m-2">
+                <label for="fullname">Full Name</label>
+                  <div class="input-group mb-3">
+                <span class="input-group-text bg-transparent" id="basic-addon1"><img src="/img/fullname.svg" alt="" width="20"></span>
+                <input type="text" class="form-control fullname" placeholder="Full Name" aria-label="fullname"
+                  aria-describedby="basic-addon1">
+                  </div>
+              </div>
+              <div class="m-2">
+                <label for="floatingInput">Email address</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-transparent" id="basic-addon1"><img src="/img/email.svg" alt="" width="20"></span>
+                  <input type="email" class="form-control email" placeholder="Email" aria-label="email"
+                    aria-describedby="basic-addon1">
+                    </div>
+              </div>
+              <div class="m-2">
+                <label for="floatingPassword">Password</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-transparent" id="basic-addon1"><img src="/img/pass.svg" alt="" width="20"></span>
+                  <input type="password" class="form-control password" placeholder="Password" aria-label="Password"
+                    aria-describedby="basic-addon1">
+                    </div>
+              </div>
+              <div class="checkbox mb-3 d-flex justify-content-center align-items-center">
+                  <input class="form-check-input custom" aria-checked="false" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label text-black-50" for="flexCheckDefault"> I agreed to the </label> Terms
+                  & Conditions
+              </div>
+              <button class="w-100 btn btn-lg btn-primary border-0 signup" type="submit" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-dismiss="modal" style="background-color: #B800F5;">Sign up</button>
+              <p class="mt-5 mb-3 text-muted text-center">Alreay have account? <button type="button"
+                  class="bg-transparent p-0 m-0 border-0" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#exampleModal" style="color: #B800F5;">Sign in</button></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable " style="max-width: 1000px;">
+      <div class="modal-content">
+        <div class="modal-body gap-5 d-flex justify-content-evenly align-items-center">
+          <div class="left"></div>
+          <span class="line"></span>
+          <div class="right">
+            <form id="signin">
+              <div class="m-2">
+                <label for="floatingInput">Full Name</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-transparent" id="basic-addon1"><img src="/img/fullname.svg" alt="" width="20"></span>
+                  <input type="text" class="form-control lfullname" placeholder="Full name" aria-label="fullname"
+                    aria-describedby="basic-addon1">
+                    </div>
+              </div>
+              <div class="m-2">
+                <label for="floatingPassword">Password</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text bg-transparent" id="basic-addon1"><img src="/img/pass.svg" alt="" width="20"></span>
+                  <input type="password" class="form-control lpassword" placeholder="Password" aria-label="Password"
+                    aria-describedby="basic-addon1">
+                    </div>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary border-0 signin" type="submit" style="background-color: #B800F5;">Sign in</button>
+              <div class="checkbox mb-3">
+                  <input class="form-check-input custom" aria-checked="false" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label text-dark" for="flexCheckDefault"> keep me signed in</label>
+              </div>
+              <button type="button" class="btn border-0 bg-transparent text-decoration-underline">Forgot password?</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/login.js"></script>
+</body>
+
+</html>

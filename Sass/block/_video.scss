@@ -1,0 +1,52 @@
+.video__title>h2 {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: $titlecolor;
+}
+
+.video__title {
+  margin-bottom: -25px;
+}
+
+.video__title>p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: $subtitlecol;
+}
+
+.video__title>a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: $purple;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+.video__img {
+  width: 1300px;
+  height: 700px;
+  background-image: url("../../img/video_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video__class_type {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: $titlecolor;
+}

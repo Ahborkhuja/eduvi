@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/inter-v12-latin-regular.woff2') format('woff2'),
+    url('../fonts/inter-v12-latin-regular.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('../fonts/inter-v12-latin-500.woff2') format('woff2'),
+    url('../fonts/inter-v12-latin-500.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../fonts/inter-v12-latin-600.woff2') format('woff2'),
+    url('../fonts/inter-v12-latin-600.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Airbnb Cereal';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/AirbnbCerealApp-Book.woff') format('woff'),
+    url('../fonts/AirbnbCerealApp-Book.woff2') format('woff2');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+    url('../fonts/Metropolis-Regular.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+    url('../fonts/Metropolis-SemiBold.woff') format('woff');
+    font-display:swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+    url('../fonts/Metropolis-Bold.woff') format('woff');
+    font-display:swap;
+}

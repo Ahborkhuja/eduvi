@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../fonts/inter-v12-latin-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v12-latin-500.woff2") format("woff2"), url("../fonts/inter-v12-latin-500.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v12-latin-600.woff2") format("woff2"), url("../fonts/inter-v12-latin-600.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Airbnb Cereal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AirbnbCerealApp-Book.woff") format("woff"), url("../fonts/AirbnbCerealApp-Book.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Metropolis-Regular.woff2") format("woff2"), url("../fonts/Metropolis-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Metropolis-Medium.woff2") format("woff2"), url("../fonts/Metropolis-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Metropolis-SemiBold.woff2") format("woff2"), url("../fonts/Metropolis-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Metropolis-Bold.woff2") format("woff2"), url("../fonts/Metropolis-Bold.woff") format("woff");
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Airbnb Cereal";
+  background-color: #F7EBF7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cart::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/cart.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.account::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/account.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.dropdown {
+  margin-right: -10x;
+}
+
+.search {
+  margin-left: -110px;
+}
+
+.search::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../../img/lupa.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img {
+  width: 700px;
+  height: 700px;
+  background-image: url("../../img/main_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__inner > p {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.title {
+  font-family: "Metropolis";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FF4450;
+}
+
+.video__title > h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: #0A033C;
+}
+
+.video__title {
+  margin-bottom: -25px;
+}
+
+.video__title > p {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #5D5A6F;
+}
+
+.video__title > a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #B800F5;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+.video__img {
+  width: 1300px;
+  height: 700px;
+  background-image: url("../../img/video_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video__class_type {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: #0A033C;
+}
+
+.qualtiy__title > h2 {
+  font-family: "Metropolis";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: #0A033C;
+}
+
+.qualtiy__title > p {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #5D5A6F;
+}
+
+.qualtiy__btn {
+  border: 1px solid #FF4450;
+  background-color: #FF4450;
+  color: white;
+}
+
+.advert__inner {
+  width: 1280px;
+  height: 667px;
+  background-image: url("/img/advert.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advert__title > span {
+  font-family: "Metropolis";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #9C4DF4;
+}
+
+.advert__title > h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0A033C;
+}
+
+.advert__title > p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5D5A6F;
+}
+
+.mentor__title {
+  width: 490px;
+}
+
+.mentor__title > h3 {
+  font-family: "Metropolis";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0A033C;
+}
+
+.mentor__title > p {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5D5A6F;
+}
+
+.mentor__title > a {
+  background-color: #9C4DF4;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.mentor__image {
+  max-width: 510px;
+  height: 521px;
+  background-image: url("../../img/mentor.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe__inner {
+  height: 420px;
+  background-image: url("../../img/subscribe.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe__title > h2 {
+  font-family: "Metropolis";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.subscribe__title > p {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.left {
+  width: 360px;
+  height: 591px;
+  background-image: url("../../img/modal_left.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fullname::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("../../img/fullname.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right > input {
+  max-width: 370px !important;
+}
+
+.line {
+  width: 1px;
+  height: 641px;
+  background: linear-gradient(180deg, rgba(10, 3, 60, 0) 0%, #0A033C 51.56%, rgba(10, 3, 60, 0) 100%);
+}
+
+.custom {
+  border-color: #B800F5;
+}
+
+.custom:checked {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.custom:checked[type=checkbox] {
+  background-image: url("../../img/checked.svg");
+  background-size: cover;
+}
+
+.icon {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.icon > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.icon > span:hover {
+  color: white;
+  background-color: #FF4450;
+}
+
+.nav-main {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #0A033C;
+}
+
+.nav-link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5D5A6F;
+}
+
+.advertisement_inner {
+  width: 1280px;
+  height: 270px;
+  background-image: url("../../img/main_page.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lefth2 {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #0A033C;
+}
+
+.filter:checked {
+  border-color: #FF4450;
+  background-color: #FF4450;
+}
+
+.mainsearch {
+  margin-left: -55px;
+}
+
+.mainsearch::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("../../img/lupa.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #0A033C;
+}
+
+.card-price {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FF4450;
+}
+
+.rightSide {
+  width: 1000px;
+}
+
+.leftSide {
+  width: 400px;
+}/*# sourceMappingURL=main.min.css.map */
