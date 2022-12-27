@@ -47,9 +47,19 @@
   line-height: 20px;
   color: $redB;
 }
-.rightSide{
+
+.rightSide {
   width: 1000px;
 }
-.leftSide{
+
+.leftSide {
   width: 400px;
+}
+
+.empty {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: $titlecolor;
 }

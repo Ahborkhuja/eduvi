@@ -24,7 +24,7 @@ function getData() {
     }).then(r => {
       console.log(r);
       if (r === null) {
-        content.innerHTML = "<h4>Oops! Database is empty</h4>";
+        content.innerHTML = '<h4>Oops! Database is empty</h4>';
       }
       else {
         let arr = Object.keys(r).map(item => {
@@ -76,7 +76,17 @@ function AddCart(elementid) {
     console.log(err);
   })
 }
+let c=0;
 drop.addEventListener('click', () => {
+  if (c === 0) {
+    fetch(`https://${apiCart}.json`, {
+      method: "DELETE",
+    }).then(res => {
+      console.log(res);
+    })
+  }
+  c=c+1;
+  console.log("c="+c);
   let result = `<div class="spinner-border text-primary" role="status">
   <span class="visually-hidden">Loading...</span>
   </div>`;
@@ -86,8 +96,8 @@ drop.addEventListener('click', () => {
       return r.json();
     }).then(r => {
       console.log(r);
-      if (r === null) {
-        cartContent.innerHTML = "<h4>Oops! Database is empty</h4>";
+      if (r == null) {
+        cartContent.innerHTML = '<p class="empty">Oops! Database is empty</p>';
       }
       else {
         let arr = Object.keys(r).map(item => {
@@ -120,8 +130,8 @@ mainsearch.addEventListener('click', (e) => {
 
 function newArriwes() {
   let res = "";
-  let i=books.length;
-  while (i>books.length-3) {
+  let i = books.length;
+  while (i > books.length - 3) {
     i--;
     res += `<div class="d-flex bg-white rounded-3 mt-3 p-1 gap-2" style="width: 300px;">
     <img src="./img/book.png" class="card-img-top w-25" alt="...">
@@ -136,8 +146,8 @@ function newArriwes() {
 
 function popular() {
   let res = "";
-  let i=0;
-  while (i<3) {
+  let i = 0;
+  while (i < 3) {
     i++;
     res += `<div class="d-flex bg-white rounded-3 mt-3 p-1 gap-2" style="width: 300px;">
     <img src="./img/book.png" class="card-img-top w-25" alt="...">
@@ -147,6 +157,6 @@ function popular() {
     </div>
   </div>`;
   }
-  
+
   popularB.innerHTML = res;
 }

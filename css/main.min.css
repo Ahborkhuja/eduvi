@@ -462,4 +462,12 @@ h1 {
 
 .leftSide {
   width: 400px;
+}
+
+.empty {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #0A033C;
 }/*# sourceMappingURL=main.min.css.map */
